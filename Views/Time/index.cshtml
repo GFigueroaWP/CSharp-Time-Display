@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Display</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <div class="times">
+        <div class="container">
+            <h1>Tiempo inicial</h1>
+            <p>@ViewBag.CurrentTime</p>
+        </div>
+        <div class="container">
+            <h1>Tiempo final</h1>
+            <p>@ViewBag.EndTime</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h1>Tiempo restante</h1>
+        <p>@ViewBag.RemainingTime</p>
+    </div>
+</body>
+</html>
